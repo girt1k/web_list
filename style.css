@@ -6,5 +6,58 @@
 }
 
 body{
-    background: linear-gradient(90deg, #f58300, #454545, #f58300);
+    background: linear-gradient(90deg, #006666, #006666, #b4fed9);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 184, 184);
+    height: 90px;
+    border: solid 5px black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    margin-left: 50px;
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(135deg, #777777, #333333);
+    margin-top: 40px;
+    display: flex;
+    padding-left: 100px;
+    padding: 20px;
+    border: solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile img{
+    margin-top: 30px;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 90px;
+}
+
+.profile h2{
+    margin-top: 23%;
+}
+
+.links{
+    width: 500px;
+    height: 100%;
+    background: linear-gradient(135deg, #777777, #333333);
 }
