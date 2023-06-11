@@ -57,7 +57,71 @@ h1{
 }
 
 .links{
+    padding: 20px;
+    background: linear-gradient(135deg, #777777, #333333);;
+    height: 100%;
+    width: 500px;
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+.control{
     width: 500px;
     height: 100%;
     background: linear-gradient(135deg, #777777, #333333);
+    padding: 20px;
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+.control, .links{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.control input{
+    font-size: 20px;
+    text-decoration: none;
+    height: 30px;
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.links ul li{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #ff0000;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+ul li span:hover{
+    background: #edeef0;
+} */
+
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    
 }

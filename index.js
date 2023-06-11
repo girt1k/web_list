@@ -8,9 +8,13 @@ function AddTask(){
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li)
-        let span = document.createElement("span")
+        let span = document.createElement("span");
         span.innerHTML = "\u00D7";
-        li.appendChild(span)
+        li.appendChild(span);
+        // let linkA = document.createElement("a");
+        // li.appendChild(linkA);
+        // linkA.innerHTML = inputBox.value;
+        // linkA.href = inputBox.value;
     }
     inputBox.value = "";
     saveData();
@@ -30,8 +34,8 @@ function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
-function showTask(){
-    listContainer.innerHTML = localStorage.getItem("data");
-}
+// function showTask(){
+//     listContainer.innerHTML = localStorage.getItem("data");
+// }
 
 showTask();
